@@ -15,7 +15,7 @@ public class CellphoneApplication {
         System.out.println("what is your model?");
         phone.setModel(myScanner.nextLine());
 
-         System.out.println("what is your phone number?");
+        System.out.println("what is your phone number?");
         phone.setPhoneNumber(myScanner.nextLine());
 
         System.out.println("write your carrer");
@@ -23,6 +23,8 @@ public class CellphoneApplication {
 
         System.out.println("who is the owner?");
         phone.setOwner(myScanner.nextLine());
+
+        myScanner.close();
 
         System.out.println(phone.getSerialnumber());
         System.out.println(phone.getModel());
