@@ -15,7 +15,7 @@ public class CellphoneApplication {
         System.out.println("what is your model?");
         phone.setModel(myScanner.nextLine());
 
-        System.out.println("what is your phone number?");
+         System.out.println("what is your phone number?");
         phone.setPhoneNumber(myScanner.nextLine());
 
         System.out.println("write your carrer");
